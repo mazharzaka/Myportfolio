@@ -1,0 +1,43 @@
+.filter {
+  width: 67px !important;
+  margin-left: 5px;
+  height: 40px !important;
+  background-color: #5a189a !important;
+  border: 1px solid #5a189a !important;
+  border-radius: 10px;
+  transition: 1s;
+}
+.hvr-bounce-to-top:before {
+  border-radius: 10px;
+  background-color: #c77dff !important;
+}
+.b-a {
+  background-color: #f72585 !important;
+  transform: translateY(-5px) !important;
+}
+.card {
+  width: 300px;
+  height: 200px;
+  margin: 5px;
+  margin-bottom: 15px;
+  transition: 1s;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card:hover {
+  transform: translateY(-3px);
+  background-color: #faf9f6 !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+video {
+  width: 100%;
+  height: 100%;
+}
+.name-pro {
+  font-family: "Dancing Script", cursive;
+  font-weight: 600;
+  color: #d2042d !important;
+}
+.hide {
+  display: none !important;
+}

@@ -1,0 +1,25 @@
+#cert {
+  background-color: #3c096c !important;
+}
+
+.cert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px !important;
+}
+
+.one,
+.two {
+  width: 400px;
+  margin-right: 30px !important;
+  height: 300px;
+  cursor: pointer;
+  margin-bottom: 30px !important;
+}
+
+.one img,
+.two img {
+  height: 100%;
+  width: 100%;
+}

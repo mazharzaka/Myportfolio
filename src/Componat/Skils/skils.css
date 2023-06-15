@@ -1,0 +1,175 @@
+/* #skil{
+
+
+} */
+.skils{
+    width: 70%;
+    height: 100%;
+    margin-top: 50px;
+    
+}
+.bar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.skil-name{
+    width: 70%;
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.progress{
+    width: 70%;
+  height: 20px;
+  transition: 1s !important;
+    margin-bottom: 5px;
+}
+#pargess1{
+    width: 90%;
+    background-color: #F0652A !important;
+    color: #fff;
+    font-weight: 400;
+}
+#pargess8{
+    width: 80%;
+    background-color: #00D8FF !important;
+
+}
+#re:hover{
+    color: #00D8FF !important;
+}
+#res:hover{
+    color: #F8DC3D !important;
+}
+#api:hover{
+    color: #EF3C2D !important;
+}
+#pargess6{
+    width: 95%;
+    background-color: #8712FC !important;
+    color: #fff;
+    font-weight: 400;
+}
+#bo:hover{
+    color:#8712FC !important ;
+}
+#pargess2 {
+    width: 80%;
+    background-color: hwb(199 19% 7%) !important;
+    color: #000;
+    font-weight: 400;
+}
+#pargess5{
+
+    color: #fff;
+    font-weight: 400;
+    background-color: #EF3C2D !important ;
+    width: 90%;
+}
+#pargess7{
+    width: 75%;
+    background-color: #ff007b  !important;
+    color: #fff;
+    font-weight: 400;
+}
+#sa:hover{
+    color:#ff007b  !important;
+}
+#pargess3{
+    width: 90%;
+    background-color: #F8DC3D !important;
+    color: #000;
+    font-weight: 400;
+}
+.progress{
+    height: 1.5rem !important;
+}
+#pargess4{
+    width: 95%;
+    color: #fff;
+    font-weight: 400;
+    
+}
+.progress-bar{
+display: none !important;
+transition: 1s !important;
+}
+.progress-bar.active{
+    display: flex !important;
+}
+.bar{
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+.bars{
+    display: block;
+}
+.bars.active{
+    display: none;
+}
+.bar.active{
+    display: none;
+}
+.pages-num{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+}
+.bar.a{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.bar.b.active{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+.bar.b{
+    display: none;
+}
+.bar.b .icon{
+    margin-right: 18px;
+    font-size: 30px;
+}
+.num{
+    width: 30px;
+    height: 35px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    margin-right: 1px;
+    transition: 1s;
+    justify-content: center;
+}
+.num:hover{
+    background-color: rgb(243, 236, 236);
+    cursor: pointer;
+    border: 1px solid #000;
+}
+.num.active{
+    background-color: #4cc9f0;
+    border: 2px solid #000;
+    transform: translateY(-5px);
+}
+#ht:hover{
+    color: #F0652A;
+}
+#cs:hover{
+    color: #31B2EC;
+}
+#js:hover{
+    color: #F8DC3D;
+}
+#git:hover{
+    color: #EF3C2D;
+}

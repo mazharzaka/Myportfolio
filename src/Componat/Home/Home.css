@@ -1,0 +1,237 @@
+#sec {
+  margin-top: 66px !important;
+  /* height: 80vh; */
+}
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+
+@media (max-width: 767px) {
+  #img svg {
+    right: 0 !important;
+  }
+  #res {
+    flex-direction: column-reverse !important;
+  }
+  #img {
+    justify-content: center;
+  }
+  #maz {
+    padding-left: 40px !important;
+  }
+  #header {
+    text-align: center;
+    font-size: 25px !important;
+  }
+  #par {
+    text-align: center;
+    font-size: 20px !important;
+  }
+  .icons {
+    display: flex;
+    flex-direction: column;
+  }
+  #header span {
+    font-size: 19px !important;
+  }
+  #butt {
+    width: 93px !important;
+    left: 91px !important;
+  }
+  .text {
+    top: -100px;
+    position: relative;
+  }
+}
+@media (max-width: 450px) {
+  #img svg {
+    right: 0 !important;
+    bottom: 9px !important;
+  }
+  #maz img {
+    width: 220px;
+  }
+  .text {
+    top: 0px;
+    position: relative;
+  }
+  #sec {
+    margin-top: 0 !important;
+  }
+  #maz img {
+    width: 248px !important;
+    bottom: -50px !important;
+    position: relative;
+    padding-left: 20px;
+  }
+
+  .nav-link {
+    padding: 0.4rem 0.9rem !important;
+  }
+  #res {
+    flex-direction: column-reverse !important;
+  }
+  #img {
+    justify-content: center;
+  }
+  #maz {
+    padding-left: 0 !important;
+  }
+  #header {
+    text-align: center;
+    font-size: 25px !important;
+  }
+  #par {
+    text-align: center;
+    font-size: 20px !important;
+  }
+  #header span {
+    font-size: 19px !important;
+  }
+  #butt {
+    width: 93px !important;
+    left: 91px !important;
+  }
+}
+#root {
+  overflow-x: hidden;
+}
+@media (max-width: 326px) {
+  #maz img {
+    width: 210px !important;
+    bottom: -35px !important;
+    position: relative;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 285px) {
+  #maz img {
+    width: 181px !important;
+    bottom: -35px !important;
+    position: relative;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 376px) {
+  #maz img {
+    width: 222px !important;
+    bottom: -35px !important;
+    position: relative;
+    padding-left: 20px;
+  }
+  #butt {
+    width: 93px !important;
+    left: 53px !important;
+  }
+}
+#color {
+  background-color: #5a189a;
+
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+}
+#header {
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #a0ecff;
+}
+#header span {
+  font-size: 25px;
+  color: #f72585;
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+  left: 3px;
+  top: 40%;
+  position: absolute;
+  z-index: 999;
+}
+#par {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 100;
+  color: #fff;
+}
+.tex {
+  margin-top: 0.3rem !important;
+}
+.namw {
+  margin-bottom: 0.5rem !important;
+}
+#par #name {
+  font-weight: 600;
+  font-size: 24px;
+  font-family: "Dancing Script", cursive;
+  color: #f72585 !important;
+}
+#udacity {
+  font-weight: 600;
+  color: #a0ecff !important;
+  font-family: "Dancing Script", cursive;
+}
+.hvr-bounce-to-left:before {
+  background-color: #a0ecff !important;
+}
+#butt {
+  width: 150px;
+  position: relative;
+  left: 100px;
+  transition: 1s;
+}
+
+#butt:hover {
+  color: #000;
+}
+#test {
+  width: 50%;
+}
+#img {
+  width: 100%;
+}
+#img svg {
+  width: 430px;
+  position: relative;
+  bottom: 100px;
+  right: -10px;
+  animation: svg 3s linear infinite;
+}
+@keyframes svg {
+  50% {
+    right: 10px;
+  }
+}
+.text {
+  width: 100%;
+}
+#maz {
+  position: absolute;
+  top: 40px;
+  rotate: 364deg;
+  padding-left: 110px;
+  animation: movepic 3s linear infinite;
+}
+#maz img {
+  width: 289px;
+}
+@keyframes movepic {
+  50% {
+    top: 10px;
+  }
+}
+.icons {
+  display: flex;
+}
+.icons i {
+  margin-top: 10px !important;
+  margin-right: 10px !important;
+  font-size: 25px;
+  color: #a0ecff;
+  border: 2px solid #a0ecff;
+  border-radius: 50%;
+  padding: 5px;
+  transition: 0.5s;
+}
+.icons i:hover {
+  background-color: #a0ecff;
+  color: #7209b7;
+}
