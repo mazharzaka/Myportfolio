@@ -21,6 +21,14 @@ function Home() {
       typed.destroy();
     };
   }, []);
+  const videoplay = () => {
+    const show = document.querySelector(".contain-video");
+    const video = document.querySelector("#video-av");
+    show.classList.toggle("active");
+    console.log(video.ended);
+    show.className == "contain-video active" ? video.play() : video.pause();
+  };
+
   return (
     <div id="color">
       <div id="sec" className='"d-flex flex-row p-5 mt-5   container'>
@@ -85,6 +93,23 @@ function Home() {
             <i class="fa-regular fa-envelope "></i>
           </a>
         </div>
+      </div>
+      <div className="video" data-aos="fade-up">
+        {/*  */}
+        <div className="contain-video">
+          <video autoPlay id="video-av">
+            <source
+              src="Green Screen - Untitled video 720p 720p.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+        <span id="text-av">CLICK ME</span>
+        <img
+          className="hvr-bounce-in avtar-pic"
+          src="pltn-style-74-year-old-man-with-a-scruffy-face-day-old-facial-hair-wearing-a-golf-shirt-with-a-p-280863813-removebg-preview.png"
+          onClick={videoplay}
+        />
       </div>
     </div>
   );

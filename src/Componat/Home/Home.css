@@ -110,6 +110,9 @@
     position: relative;
     padding-left: 20px;
   }
+  .video {
+    padding: 20px !important;
+  }
 }
 @media (max-width: 376px) {
   #maz img {
@@ -234,4 +237,48 @@
 .icons i:hover {
   background-color: #a0ecff;
   color: #7209b7;
+}
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3px;
+}
+.avtar-pic {
+  width: 100px;
+  cursor: pointer;
+}
+#text-av {
+  color: #f72585;
+  animation: text 1s linear infinite;
+  position: relative;
+}
+@keyframes text {
+  50% {
+    color: #a0ecff;
+    bottom: 10px;
+  }
+}
+.contain-video,
+.contain-video-skils {
+  width: 300px;
+  height: 200px;
+  /* background-color: #f72585; */
+  margin-bottom: 10px;
+  position: relative;
+  bottom: 50px;
+  display: none;
+  transition: 2s;
+}
+.contain-video.active,
+.contain-video-skils.active {
+  display: block;
+}
+.contain-video-skils {
+  bottom: 20px;
+}
+.avtar-en {
+  width: 60px;
+  cursor: pointer;
 }

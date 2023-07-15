@@ -56,6 +56,15 @@ function Skils() {
       bar[1].classList.remove("active");
     }
   };
+  const videoplay = () => {
+    const show = document.querySelector(".contain-video-skils");
+    const video = document.querySelector("#video-skils");
+    show.classList.toggle("active");
+    console.log(video.ended);
+    show.className == "contain-video-skils active"
+      ? video.play()
+      : video.pause();
+  };
   return (
     <div id="skil">
       <div className="container">
@@ -251,6 +260,20 @@ function Skils() {
               <div onClick={page} className="num">
                 3
               </div>
+            </div>
+            <div className="video" data-aos="fade-up">
+              {/*  */}
+              <div className="contain-video-skils">
+                <video autoPlay id="video-skils">
+                  <source src="Untitled video (3) 720p.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <span id="text-av">CLICK ME</span>
+              <img
+                className="hvr-bounce-in avtar-en"
+                src="pltn-style-child-albert-einstein3dlibrary-bookpotrait-realistic8k-cute-big-circular-reflective-289428107-removebg-preview.png"
+                onClick={videoplay}
+              />
             </div>
           </div>{" "}
         </div>
