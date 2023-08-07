@@ -282,3 +282,12 @@
   width: 60px;
   cursor: pointer;
 }
+.scroller {
+  background-color: #f7258582;
+  width: 0;
+  height: 4px;
+  position: fixed;
+
+  left: 0;
+  z-index: 99999;
+}

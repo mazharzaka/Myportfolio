@@ -16,6 +16,8 @@ const App = () => {
   return (
     <div className="cotainer">
       <Header />
+      <div class="scroller"></div>
+
       <Home />
       <Skils />
       <Certificates />

@@ -38,11 +38,11 @@
 
 #nav {
   background-color: #3c096c !important;
-  box-shadow: #f7258582 0 3px;
+  /* box-shadow: #f7258582 0 3px; */
 }
 
 body {
-  background-color: #9d4edd !important;
+  background-color: #53267c !important;
 }
 
 .navbar-brand {
