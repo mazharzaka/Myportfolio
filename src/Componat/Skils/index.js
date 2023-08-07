@@ -277,7 +277,7 @@ function Skils() {
             <div className="video" data-aos="fade-up">
               {/*  */}
               <div className="contain-video-skils">
-                <video autoPlay id="video-skils">
+                <video id="video-skils">
                   <source src="Untitled video (3) 720p.mp4" type="video/mp4" />
                 </video>
               </div>

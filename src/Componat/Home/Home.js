@@ -99,7 +99,7 @@ function Home() {
       <div className="video" data-aos="fade-up">
         {/*  */}
         <div className="contain-video">
-          <video autoPlay id="video-av">
+          <video id="video-av">
             <source
               src="Green Screen - Untitled video 720p 720p.mp4"
               type="video/mp4"
