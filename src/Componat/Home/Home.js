@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Home.css";
 import Typed from "typed.js";
 function Home() {
@@ -31,6 +31,53 @@ function Home() {
 
   return (
     <div id="color">
+      <section class="snow">
+        <div class="snowflake">
+          <i class="fa-regular fa-snowflake"></i>
+        </div>
+        <div class="snowflake1">
+          <i class="fa-regular fa-snowflake"></i>
+        </div>
+        <div class="snowflake2">
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <div class="snowflake3">
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <div class="snowflake4">
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <div class="snowflake5">
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <div class="snowflake6">
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <div class="snowflake7">
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <div class="snowflake8">
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <div class="snowflake9">
+          <i class="fa-regular fa-snowflake"></i>
+        </div>
+        <div class="snowflake10">
+          <i class="fa-solid fa-snowflake"></i>
+        </div>
+        <div class="snowflake11">
+          <i class="fa-solid fa-snowflake"></i>
+        </div>
+        <div class="snowflake12">
+          <i class="fa-regular fa-snowflake"></i>
+        </div>
+        <div class="snowflake13">
+          <i class="fa-regular fa-snowflake"></i>
+        </div>
+        <div class="snowflake14">
+          <i class="fa-regular fa-snowflake"></i>
+        </div>
+      </section>
       <div id="sec" className='"d-flex flex-row p-5 mt-5   container'>
         <div id="res" class="d-flex mt-5 flex-row  ">
           <div className="text">
@@ -44,19 +91,37 @@ function Home() {
               </p>
               <span ref={el} />
               <p className="tex">
-                {" "}
-                I obtained a certificate from the Egyptian Ministry of
-                Communications in partnership with the global platform{" "}
-                <span id="udacity">Udacity</span> in the field of
-                front-web-devolpment. Then I decided to learn react. This will
-                be the first pilot project for me.
+                Enthusiastic front-end developer with a solid foundation in
+                HTML, CSS, JavaScript, and modern frameworks. Recently graduated
+                with a focus on web development, supported by hands-on project
+                experience and certifications from{" "}
+                <span id="udacity">Udacity</span>. Passionate about creating
+                responsive, user-friendly web applications and eager to
+                contribute to a dynamic team. Seeking a challenging role to
+                further develop my skills and innovate in front-end development.
               </p>
               {/* I am a  <span id='name'>20</span>-year-old student at the Faculty of Commerce, 
                 Cairo University. I am very passionate about programming, and I obtained a certificate from the Egyptian Ministry of Communications in
              partnership with the global platform <span id='udacity'>Udacity</span>  in the field of front-web-devolpment. Then I decided to learn react. This will be the first pilot project for me. */}
             </p>
-
-            <a
+            <div className="mb">
+              <a
+                className="button"
+                href="./my-cv (3).pdf"
+                download
+                role="button"
+                id="butt"
+                data-aos="fade-left"
+                style={{ "--color": "#00BCD4" }}
+              >
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                My Cv
+              </a>
+            </div>
+            {/* <a
               className="btn btn-primary hvr-grow-shadow hvr-bounce-to-left"
               href="./my-cv (3).pdf"
               download
@@ -65,7 +130,7 @@ function Home() {
               data-aos="fade-left"
             >
               My Cv
-            </a>
+            </a> */}
           </div>
           <div className="d-flex align-items-start" id="img">
             <svg

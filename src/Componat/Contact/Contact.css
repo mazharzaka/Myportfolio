@@ -15,12 +15,12 @@
 #name-con {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  color: #a0ecff;
+  color: #00BCD4;
   transition: 0.5s;
   padding-top: 10px;
 }
 #contact {
-  background-color: #5a189a !important;
+  background-color: #121212 !important;
 }
 #name-con:hover {
   font-weight: 700;
