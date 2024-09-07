@@ -1,11 +1,13 @@
 import React from "react";
-import {useState, useEffect} from "react";
+import { useState, useEffect } from "react";
 import "hover.css/css/hover-min.css";
 import "./skils.css";
 import "bootstrap/dist/css/bootstrap.css";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
-
+import BallCanvas from "../../canvas";
+// import { SectionWrapper } from "../hoc";
+import { technologies } from "../constants";
 AOS.init();
 function Skils() {
   const [scrollTop, setScrollTop] = useState(0);
@@ -86,7 +88,7 @@ function Skils() {
             My Skills
           </h1>
         </div>
-        <div className="d-flex justify-content-center">
+        {/* <div className="d-flex justify-content-center">
           <div className="skils" data-aos="fade-right">
             <div className="bars">
               <div className="bar">
@@ -275,7 +277,7 @@ function Skils() {
               </div>
             </div>
             <div className="video" data-aos="fade-up">
-              {/*  */}
+              {/* 
               <div className="contain-video-skils">
                 <video id="video-skils">
                   <source src="Untitled video (3) 720p.mp4" type="video/mp4" />
@@ -289,6 +291,13 @@ function Skils() {
               />
             </div>
           </div>{" "}
+        </div> */}
+        <div className="flex flex-row flex-wrap justify-center gap-10">
+          {technologies.map((technology) => (
+            <div className="w-28 h-28" key={technology.name}>
+              <BallCanvas icon={technology.icon} />
+            </div>
+          ))}
         </div>
       </div>
     </div>
