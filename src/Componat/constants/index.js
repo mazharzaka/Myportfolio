@@ -12,6 +12,12 @@ import {
   figma,
   docker,
   threejs,
+  bootstarp,
+  fire,
+  mui,
+  npm,
+  github,
+  sass,
 } from "../assets";
 
 const technologies = [
@@ -28,8 +34,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "github",
+    icon: github,
   },
   {
     name: "React JS",
@@ -44,12 +50,16 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "bootstarp",
+    icon: bootstarp,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "sass",
+    icon: sass,
+  },
+  {
+    name: "npm",
+    icon: npm,
   },
   {
     name: "Three JS",
@@ -60,12 +70,12 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "mui",
+    icon: mui,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "fire",
+    icon: fire,
   },
 ];
 

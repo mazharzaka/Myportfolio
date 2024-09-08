@@ -29,9 +29,21 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import bootstarp from "./tech/bootstarp.png";
+import mui from "./tech/mui.com.png";
+import fire from "./tech/fire.png";
+import npm from "./tech/npm.png";
+import hub from "./tech/github.png";
+import sass from "./tech/sass.png";
 
 export {
   logo,
+  fire,
+  mui,
+  sass,
+  hub,
+  npm,
+  bootstarp,
   backend,
   creator,
   mobile,

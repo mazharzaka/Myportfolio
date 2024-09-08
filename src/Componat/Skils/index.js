@@ -292,9 +292,9 @@ function Skils() {
             </div>
           </div>{" "}
         </div> */}
-        <div className="flex flex-row flex-wrap justify-center gap-10">
+        <div className="d-flex flex-row flex-wrap justify-content-center">
           {technologies.map((technology) => (
-            <div className="w-28 h-28" key={technology.name}>
+            <div style={{ width: "170px" }} key={technology.name}>
               <BallCanvas icon={technology.icon} />
             </div>
           ))}
