@@ -7,7 +7,7 @@ function Home() {
   React.useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-        "I am a  <span id=name >20</span>-year-old.",
+        "I am a  <span id=name >21</span>-year-old.",
         "I am very passionate about programming..",
         " I am front-end developer",
       ],

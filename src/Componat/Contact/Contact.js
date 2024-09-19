@@ -1,6 +1,9 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import ScrollToTop from "react-scroll-to-top";
 import "./Contact.css";
+import Ava from "../ava";
+import { OrbitControls } from "@react-three/drei";
+import { Canvas } from "@react-three/fiber";
 class Contact extends Component {
   state = {
     user: "",
@@ -33,48 +36,75 @@ class Contact extends Component {
         <div className="container d-flex flex-column align-items-center ">
           <h1
             className="d-flex justify-content-center hvr-buzz-out hvr-underline-from-right"
-            id="name-con">
+            id="name-con"
+          >
             Contact
           </h1>
-          <div className="p-2 form-floating " id="size">
-            <input
-              type="text"
-              className="form-control"
-              id="floatingInputGrid"
-              onChange={this.name}
-              placeholder="name"
-            />
-            <label for="floatingInputGrid">Name</label>
+          <div
+            className="d-flex justify-content-center  "
+            style={{ width: "100%" }}
+          >
+            <div className="ava">
+              <Canvas>
+                <ambientLight intensity={0.5} />
+                <directionalLight position={[10, 10, 5]} intensity={1} />
+                <Ava position-y={-2.5} scale={3} animationName="salute" />
+                <OrbitControls />
+              </Canvas>
+            </div>
+            <div
+              className="d-flex  flex-column"
+              style={{ marginLeft: "100px", marginTop: "20px" }}
+            >
+              <div className="p-2 form-floating ">
+                <input
+                  type="text"
+                  className="form-control"
+                  id="floatingInputGrid"
+                  onChange={this.name}
+                  placeholder="name"
+                />
+                <label for="floatingInputGrid">Name</label>
+              </div>
+              <div className="p-2 form-floating" style={{ width: "300px" }}>
+                <input
+                  type="email"
+                  className="form-control"
+                  id="floatingInputGrid"
+                  onChange={this.email}
+                  placeholder="name@example.com"
+                />
+                <label for="floatingInputGrid">Email address</label>
+              </div>
+              <div className="p-2 mb-3" style={{ width: "300px" }}>
+                <label
+                  for="floatingInputGrid"
+                  className="form-label"
+                  id="label"
+                >
+                  Example textarea
+                </label>
+                <textarea
+                  className="form-control"
+                  id="exampleFormControlTextarea1"
+                  onChange={this.text}
+                  rows="3"
+                ></textarea>
+              </div>
+              <div
+                className="d-flex justify-content-center "
+                style={{ width: "300px" }}
+              >
+                <button
+                  type="button"
+                  onClick={this.notes}
+                  className="mb-5 btn btn-info "
+                >
+                  Submit
+                </button>
+              </div>
+            </div>
           </div>
-          <div className="p-2 form-floating" id="size">
-            <input
-              type="email"
-              className="form-control"
-              id="floatingInputGrid"
-              onChange={this.email}
-              placeholder="name@example.com"
-            />
-            <label for="floatingInputGrid">Email address</label>
-          </div>
-          <div className="p-2 mb-3" id="size">
-            <label for="floatingInputGrid" className="form-label" id="label">
-              Example textarea
-            </label>
-            <textarea
-              className="form-control"
-              id="exampleFormControlTextarea1"
-              onChange={this.text}
-              rows="3"></textarea>
-          </div>
-          <div className="d-flex justify-content-center">
-            <button
-              type="button"
-              onClick={this.notes}
-              className="mb-5 btn btn-info ">
-              Submit
-            </button>
-          </div>
-
           <div id="cover">
             {/* <div className="p-5 d-flex flex-column bd-highlight mb-3" id="note">
     <div className="pt-5 bd-highlight row" id="shape"><div className="col-sm-4" >Name:</div>  <span className="col-sm-8">mazhar</span></div>
