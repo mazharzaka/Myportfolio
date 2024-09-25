@@ -11,6 +11,13 @@
   #size {
     width: 80%;
   }
+  #rss{
+    flex-direction: column;
+    align-items: center;
+  }
+  #tt{
+    margin-left: 0px !important;
+  }
 }
 #name-con {
   font-family: "Roboto", sans-serif;

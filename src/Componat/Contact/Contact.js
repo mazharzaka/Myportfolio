@@ -42,6 +42,7 @@ class Contact extends Component {
           </h1>
           <div
             className="d-flex justify-content-center  "
+            id="rss"
             style={{ width: "100%" }}
           >
             <div className="ava">
@@ -55,6 +56,7 @@ class Contact extends Component {
             <div
               className="d-flex  flex-column"
               style={{ marginLeft: "100px", marginTop: "20px" }}
+              id="tt"
             >
               <div className="p-2 form-floating ">
                 <input
