@@ -16,7 +16,8 @@
   transform: translateY(-5px) !important;
 }
 #modren{
-  background-color: #070827;
+  background-color: #024952;
+  height: auto;
 }
 .card {
   width: 300px;
@@ -43,4 +44,26 @@ video {
 }
 .hide {
   display: none !important;
+}
+#modren 
+.name-pro{
+  color: #fff  !important;
+} 
+#modren:hover
+.name-pro{
+  color: #024952  !important;
+} 
+#gitt{
+  font-size: 25px;
+  /* margin-right: 20px; */
+  color: #FFB5AE;
+}
+#modren:hover
+#gitt{
+  color: #DB1906;
+}
+#icons-pro{
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
 }

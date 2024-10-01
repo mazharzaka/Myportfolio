@@ -10,7 +10,7 @@ const defaultOptions = {
   speed: 1000, // Speed of the enter/exit transition
   transition: true, // Set a transition on enter/exit.
   axis: null, // What axis should be disabled. Can be X or Y.
-  reset: true, // If the tilt effect has to be reset on exit.
+  reset: false, // If the tilt effect has to be reset on exit.
   easing: "cubic-bezier(.03,.98,.52,.99)", // Easing on enter/exit.
 };
 const Project = () => {
@@ -139,7 +139,13 @@ const Project = () => {
           className="container d-flex flex-wrap  justify-content-center"
           id="Allcards"
         >
-          <Tilt>
+          <Tilt
+            options={defaultOptions}
+            style={{
+              transform:
+                "perspective(1000px) rotateX(8.5deg) rotateY(16.24deg) scale3d(1.1, 1.1, 1.1)",
+            }}
+          >
             <div className="pro1 " data-aos="fade-down">
               <div
                 className="card"
@@ -153,10 +159,30 @@ const Project = () => {
                   </video>
                 </div>{" "}
                 <div className="text-center name-pro">TheWebFather </div>
+                <div className="text-center name-pro" id="icons-pro">
+                  <a
+                    href="https://github.com/mazharzaka/thewebfather"
+                    id="gitt"
+                    style={{
+                      marginRight: "15px",
+                    }}
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                  <a href="https://thewebfather-main.vercel.app/" id="gitt">
+                    <i class="fa-solid fa-link"></i>
+                  </a>
+                </div>
               </div>
             </div>{" "}
           </Tilt>
-          <Tilt>
+          <Tilt
+            options={defaultOptions}
+            style={{
+              transform:
+                "perspective(1000px) rotateX(16.48deg) rotateY(-5.09deg) scale3d(1.1, 1.1, 1.1)",
+            }}
+          >
             <div className="pro1 " data-aos="fade-down">
               <div
                 className="card"
@@ -169,11 +195,29 @@ const Project = () => {
                     <source src="./vidoes/Net.mp4" type="video/mp4" />
                   </video>
                 </div>{" "}
-                <div className="text-center name-pro">Netflex </div>
+                <div className="text-center name-pro">Netflex </div>{" "}
+                <div className="text-center name-pro" id="icons-pro">
+                  <a
+                    href="https://github.com/mazharzaka/Netflix_clone"
+                    id="gitt"
+                    style={{ marginRight: "15px" }}
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                  <a href="https://netflix-1820c.web.app/signin" id="gitt">
+                    <i class="fa-solid fa-link"></i>
+                  </a>
+                </div>
               </div>
             </div>{" "}
           </Tilt>
-          <Tilt>
+          <Tilt
+            style={{
+              transform:
+                "perspective(1000px) rotateX(3.66deg) rotateY(-17.5deg) scale3d(1.1, 1.1, 1.1)",
+            }}
+            options={defaultOptions}
+          >
             <div className="pro1 " data-aos="fade-down">
               <div
                 className="card"
@@ -186,7 +230,22 @@ const Project = () => {
                     <source src="./vidoes/dash.mp4" type="video/mp4" />
                   </video>
                 </div>{" "}
-                <div className="text-center name-pro">Dashboard </div>
+                <div className="text-center name-pro">Dashboard </div>{" "}
+                <div className="text-center name-pro" id="icons-pro">
+                  <a
+                    href="https://github.com/mazharzaka/dashboard"
+                    id="gitt"
+                    style={{ marginRight: "15px" }}
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                  <a
+                    href="https://dashboard-pnmb41kim-mazharzaka.vercel.app/"
+                    id="gitt"
+                  >
+                    <i class="fa-solid fa-link"></i>
+                  </a>
+                </div>
               </div>
             </div>
           </Tilt>

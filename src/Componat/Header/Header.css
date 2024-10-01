@@ -7,7 +7,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  color: #c77dff !important;
+  color: #00BCD4 !important;
 }
 
 @media (max-width: 767px) {
@@ -33,7 +33,7 @@
 }
 
 .nav-link:hover {
-  color: #f72585 !important;
+  color: #FF6F61 !important;
 }
 
 #nav {
@@ -48,14 +48,14 @@ body {
 .navbar-brand {
   position: relative;
   left: 91px;
-  color: #c77dff !important;
+  color: #00BCD4 !important;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 25px !important;
 }
 
 .navbar-brand span {
-  color: #f72585 !important;
+  color: #FF6F61  !important;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 18px !important;
