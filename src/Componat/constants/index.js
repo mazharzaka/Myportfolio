@@ -1,22 +1,19 @@
 import {
   javascript,
-  typescript,
   html,
   css,
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
   git,
-  figma,
-  docker,
   threejs,
   bootstarp,
   fire,
   mui,
   npm,
   github,
+  ts,
+  next,
   sass,
 } from "../assets";
 
@@ -76,6 +73,14 @@ const technologies = [
   {
     name: "fire",
     icon: fire,
+  },
+  {
+    name: "ts",
+    icon: ts,
+  },
+  {
+    name: "next",
+    icon: next,
   },
 ];
 

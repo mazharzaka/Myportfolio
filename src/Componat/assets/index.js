@@ -8,6 +8,8 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
+import ts from "./tech/ts.png";
+import next from "./tech/next.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -65,6 +67,8 @@ export {
   typescript,
   threejs,
   meta,
+  ts,
+  next,
   shopify,
   starbucks,
   tesla,
