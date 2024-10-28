@@ -13,6 +13,8 @@ function Skils() {
   const [scrollTop, setScrollTop] = useState(0);
 
   useEffect(() => {
+    console.log(technologies[0].icon)
+    
     window.addEventListener("scroll", () => {
       const bar = document.querySelectorAll(".progress-bar");
       if (window.scrollY > 300) {

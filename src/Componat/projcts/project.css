@@ -2,18 +2,21 @@
   width: 67px !important;
   margin-left: 5px;
   height: 40px !important;
-  background-color: #5a189a !important;
-  border: 1px solid #5a189a !important;
+  background-color: #00BCD4  !important;
+  border: 1px solid #00BCD4  !important;
   border-radius: 10px;
+  color: #000;
   transition: 1s;
 }
 .hvr-bounce-to-top:before {
   border-radius: 10px;
+  background-color: #000;
   background-color: #c77dff !important;
 }
 .b-a {
-  background-color: #f72585 !important;
+  background-color: #000 !important;
   transform: translateY(-5px) !important;
+  color: #00BCD4;
 }
 #modren{
   background-color: #024952;

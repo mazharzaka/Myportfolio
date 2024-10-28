@@ -1,6 +1,6 @@
 import {
   javascript,
-  html,
+  Html,
   css,
   reactjs,
   redux,
@@ -18,13 +18,13 @@ import {
 } from "../assets";
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
+
   {
     name: "CSS 3",
     icon: css,
+  },  {
+    name: "HTML 5",
+    icon: Html,
   },
   {
     name: "JavaScript",

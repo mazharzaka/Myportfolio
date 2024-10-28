@@ -457,7 +457,7 @@ position: relative;
 }
 .icons i:hover {
   background-color: #00BCD4;
-  color: #7209b7;
+  color: #000;
 }
 .video {
   display: flex;
