@@ -9,6 +9,15 @@
   #img svg {
     right: 0 !important;
   }
+ .mb{
+  display:flex;
+  flex-direction: column;
+ }
+ .button.view{
+  margin-left: 0px !important;
+  margin-top: 60px;
+  margin-bottom: 60px;
+ }
   #res {
     flex-direction: column-reverse !important;
   }

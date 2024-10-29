@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import "./Home.css";
 import Typed from "typed.js";
+
 function Home() {
   const el = React.useRef(null);
+ 
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
@@ -107,7 +109,7 @@ function Home() {
             <div className="mb">
               <a
                 className="button"
-                href="./my-cv (3).pdf"
+                href="./mazharCv.pdf"
                 download
                 role="button"
                 id="butt"
@@ -118,19 +120,25 @@ function Home() {
                 <span></span>
                 <span></span>
                 <span></span>
-                My Cv
+                MyCv
+              </a>
+              <a
+                className="button view"
+                href="https://drive.google.com/file/d/1NTz64MxsT0PV-o_PFHJ43gmv2ZqTUkte/view?usp=drive_link"
+                role="button"
+                id="butt"
+                target="_blank"
+                data-aos="fade-left"
+                style={{ "--color": "#00BCD4" ,"marginLeft":"60px"}}
+              >
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                View
               </a>
             </div>
-            {/* <a
-              className="btn btn-primary hvr-grow-shadow hvr-bounce-to-left"
-              href="./my-cv (3).pdf"
-              download
-              role="button"
-              id="butt"
-              data-aos="fade-left"
-            >
-              My Cv
-            </a> */}
+        
           </div>
           <div className="d-flex align-items-start" id="img">
             <svg
@@ -174,7 +182,7 @@ function Home() {
             />
           </video>
         </div>
-        <span id="text-av">CLICK ME</span>
+        {/* <span id="text-av">CLICK ME</span> */}
         <img
           className="hvr-bounce-in avtar-pic"
           src="pltn-style-74-year-old-man-with-a-scruffy-face-day-old-facial-hair-wearing-a-golf-shirt-with-a-p-280863813-removebg-preview.png"

@@ -33,7 +33,7 @@ function Certificates() {
           <Tilt options={defaultOptions}>
             <div className="two hvr-grow-shadow hvr-curl-top-right">
               {" "}
-              <a href="https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/d44231b3-c5d1-4f46-87bd-b3bbebc68783.pdf">
+              <a target="_blank" href="https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/d44231b3-c5d1-4f46-87bd-b3bbebc68783.pdf">
                 <img src="./d44231b3-c5d1-4f46-87bd-b3bbebc68783-1.jpg" />
               </a>
             </div>
