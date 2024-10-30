@@ -4,6 +4,7 @@ import "./Contact.css";
 import Ava from "../ava";
 import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
+import LazyLoad from "react-lazy-load";
 class Contact extends Component {
   state = {
     user: "",
@@ -39,13 +40,15 @@ class Contact extends Component {
             id="name-con"
           >
             Contact
-          </h1>
+          </h1> 
+     
           <div
             className="d-flex justify-content-center  "
             id="rss"
             style={{ width: "100%" }}
-          >
+          >     <LazyLoad >
             <div className="ava">
+           
               <Canvas>
                 <ambientLight intensity={0.5} />
                 <directionalLight position={[10, 10, 5]} intensity={1} />
@@ -53,6 +56,7 @@ class Contact extends Component {
                 <OrbitControls />
               </Canvas>
             </div>
+            </LazyLoad>
             <div
               className="d-flex  flex-column"
               style={{ marginLeft: "100px", marginTop: "20px" }}
