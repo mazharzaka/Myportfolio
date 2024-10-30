@@ -8,6 +8,7 @@ import "aos/dist/aos.css"; // You can also use <link> for styles
 import BallCanvas from "../../canvas";
 // import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
+import LazyLoad from "react-lazy-load";
 AOS.init();
 function Skils() {
   const [scrollTop, setScrollTop] = useState(0);
@@ -296,9 +297,10 @@ function Skils() {
         </div> */}
         <div className="d-flex flex-row flex-wrap justify-content-center">
           {technologies.map((technology) => (
+                <LazyLoad >
             <div style={{ width: "170px" }} key={technology.name}>
               <BallCanvas icon={technology.icon} />
-            </div>
+            </div></LazyLoad>
           ))}
         </div>
       </div>
