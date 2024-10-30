@@ -298,7 +298,7 @@ function Skils() {
         <div className="d-flex flex-row flex-wrap justify-content-center">
           {technologies.map((technology) => (
                 <LazyLoad >
-            <div style={{ width: "170px" }} key={technology.name}>
+            <div style={{ width: "190px" }} key={technology.name}>
               <BallCanvas icon={technology.icon} />
             </div></LazyLoad>
           ))}
