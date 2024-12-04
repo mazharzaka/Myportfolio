@@ -249,6 +249,41 @@ const Project = () => {
               </div>
             </div>
           </Tilt>
+          <Tilt
+            options={defaultOptions}
+            style={{
+              transform:
+                "perspective(1000px) rotateX(8.5deg) rotateY(16.24deg) scale3d(1.1, 1.1, 1.1)",
+            }}
+          >
+            <div className="pro1 " data-aos="fade-down">
+              <div
+                className="card"
+                id="modren"
+                onMouseOver={on}
+                onMouseLeave={out}
+              >
+                <div className="video">
+                 <img src="WebChat.png" className="chat"/>
+                </div>{" "}
+                <div className="text-center name-pro">TheWebChat </div>
+                <div className="text-center name-pro" id="icons-pro">
+                  <a
+                    href="https://github.com/mazharzaka/webchat"
+                    id="gitt"
+                    style={{
+                      marginRight: "15px",
+                    }}
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                  <a href="https://webchat-lswy.vercel.app/https:/en.wikipedia.org/wiki/Ahmed_Zewail" id="gitt">
+                    <i class="fa-solid fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>{" "}
+          </Tilt>
           <div className="pro1 " data-aos="fade-down">
             <div className="card" onMouseOver={on} onMouseLeave={out}>
               <div className="video">

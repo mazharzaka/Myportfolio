@@ -21,6 +21,7 @@
   #res {
     flex-direction: column-reverse !important;
   }
+
   #img {
     justify-content: center;
   }
@@ -82,6 +83,7 @@
   #img {
     justify-content: center;
   }
+
   #maz {
     padding-left: 0 !important;
   }
@@ -112,7 +114,9 @@
     padding-left: 20px;
   }
 }
-
+.chat{
+  height: 190px;
+}
 @media (max-width: 285px) {
   #maz img {
     width: 181px !important;
