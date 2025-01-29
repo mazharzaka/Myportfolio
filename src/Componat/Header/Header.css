@@ -7,7 +7,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  color: #00BCD4 !important;
+  color: #fff !important;
 }
 
 @media (max-width: 767px) {
@@ -32,12 +32,10 @@
   font-size: 25px;
 }
 
-.nav-link:hover {
-  color: #FF6F61 !important;
-}
+
 
 #nav {
-  background-color: #1C1C1C !important;
+  background-color: #000 !important;
   /* box-shadow: #f7258582 0 3px; */
 }
 
@@ -48,18 +46,12 @@ body {
 .navbar-brand {
   position: relative;
   left: 91px;
-  color: #00BCD4 !important;
+  color: #03dac6 !important;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 25px !important;
 }
 
-.navbar-brand span {
-  color: #FF6F61  !important;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 18px !important;
-}
 
 #com {
   margin-left: 20px !important;

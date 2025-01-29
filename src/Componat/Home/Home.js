@@ -4,7 +4,7 @@ import Typed from "typed.js";
 
 function Home() {
   const el = React.useRef(null);
- 
+
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
@@ -33,74 +33,24 @@ function Home() {
 
   return (
     <div id="color">
-      <section class="snow">
-        <div class="snowflake">
-          <i class="fa-regular fa-snowflake"></i>
-        </div>
-        <div class="snowflake1">
-          <i class="fa-regular fa-snowflake"></i>
-        </div>
-        <div class="snowflake2">
-          <i class="fa-regular fa-star"></i>
-        </div>
-        <div class="snowflake3">
-          <i class="fa-regular fa-star"></i>
-        </div>
-        <div class="snowflake4">
-          <i class="fa-regular fa-star"></i>
-        </div>
-        <div class="snowflake5">
-          <i class="fa-regular fa-star"></i>
-        </div>
-        <div class="snowflake6">
-          <i class="fa-regular fa-star"></i>
-        </div>
-        <div class="snowflake7">
-          <i class="fa-regular fa-star"></i>
-        </div>
-        <div class="snowflake8">
-          <i class="fa-regular fa-star"></i>
-        </div>
-        <div class="snowflake9">
-          <i class="fa-regular fa-snowflake"></i>
-        </div>
-        <div class="snowflake10">
-          <i class="fa-solid fa-snowflake"></i>
-        </div>
-        <div class="snowflake11">
-          <i class="fa-solid fa-snowflake"></i>
-        </div>
-        <div class="snowflake12">
-          <i class="fa-regular fa-snowflake"></i>
-        </div>
-        <div class="snowflake13">
-          <i class="fa-regular fa-snowflake"></i>
-        </div>
-        <div class="snowflake14">
-          <i class="fa-regular fa-snowflake"></i>
-        </div>
-      </section>
+
       <div id="sec" className='"d-flex flex-row p-5 mt-5   container'>
         <div id="res" class="d-flex mt-5 flex-row  ">
           <div className="text">
-            <h1 id="header" data-aos="fade-right">
-              This is My Portifollo<span>App</span>
-            </h1>
+
             <p id="par" data-aos="fade-up">
               <p className="namw">
                 {" "}
-                My Name is <span id="name">Mazhar Mohamed</span>.
+Hi, I'm Mazhar Mohamed!👋 
               </p>
               <span ref={el} />
               <p className="tex">
-                Enthusiastic front-end developer with a solid foundation in
-                HTML, CSS, JavaScript, and modern frameworks. Recently graduated
-                with a focus on web development, supported by hands-on project
-                experience and certifications from{" "}
-                <span id="udacity">Udacity</span>. Passionate about creating
-                responsive, user-friendly web applications and eager to
-                contribute to a dynamic team. Seeking a challenging role to
-                further develop my skills and innovate in front-end development.
+
+                A passionate front-end developer with expertise in HTML, CSS, JavaScript, React.js, and Next.js, along with TypeScript, Tailwind CSS, Firebase, and more. 
+
+                Certified by <span id="udacity">Udacity</span> , with hands-on experience in building interactive web applications, optimizing performance, and supporting multilingual features. I am driven by innovation and always eager to create seamless user experiences. Looking for opportunities to contribute to impactful projects and grow within a dynamic team.
+
+
               </p>
               {/* I am a  <span id='name'>20</span>-year-old student at the Faculty of Commerce, 
                 Cairo University. I am very passionate about programming, and I obtained a certificate from the Egyptian Ministry of Communications in
@@ -129,7 +79,7 @@ function Home() {
                 id="butt"
                 target="_blank"
                 data-aos="fade-left"
-                style={{ "--color": "#00BCD4" ,"marginLeft":"60px"}}
+                style={{ "--color": "#00BCD4", "marginLeft": "60px" }}
               >
                 <span></span>
                 <span></span>
@@ -138,7 +88,7 @@ function Home() {
                 View
               </a>
             </div>
-        
+
           </div>
           <div className="d-flex align-items-start" id="img">
             <svg
@@ -183,11 +133,7 @@ function Home() {
           </video>
         </div>
         {/* <span id="text-av">CLICK ME</span> */}
-        <img
-          className="hvr-bounce-in avtar-pic"
-          src="pltn-style-74-year-old-man-with-a-scruffy-face-day-old-facial-hair-wearing-a-golf-shirt-with-a-p-280863813-removebg-preview.png"
-          onClick={videoplay}
-        />
+
       </div>
     </div>
   );
