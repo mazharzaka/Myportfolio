@@ -86,7 +86,7 @@ function Skils() {
   return (
     <div id="skil">
       <div className="container">
-        <div className="d-flex justify-content-center" data-aos="fade-up">
+        <div className="d-flex justify-content-center" >
           <h1 class="hvr-buzz-out hvr-underline-from-right" id="name-con">
             My Skills
           </h1>

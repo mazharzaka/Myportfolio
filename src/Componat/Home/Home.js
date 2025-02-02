@@ -64,7 +64,7 @@ Hi, I'm Mazhar Mohamed!👋
                 role="button"
                 id="butt"
                 data-aos="fade-left"
-                style={{ "--color": "#00BCD4" }}
+                style={{ "--color": "#03dac6" }}
               >
                 <span></span>
                 <span></span>
@@ -79,7 +79,7 @@ Hi, I'm Mazhar Mohamed!👋
                 id="butt"
                 target="_blank"
                 data-aos="fade-left"
-                style={{ "--color": "#00BCD4", "marginLeft": "60px" }}
+                style={{ "--color": "#03dac6", "marginLeft": "60px" }}
               >
                 <span></span>
                 <span></span>
@@ -90,7 +90,7 @@ Hi, I'm Mazhar Mohamed!👋
             </div>
 
           </div>
-          <div className="d-flex align-items-start" id="img">
+          {/* <div className="d-flex align-items-start" id="img">
             <svg
               viewBox="0 0 200 200"
               data-aos="fade-left"
@@ -108,7 +108,7 @@ Hi, I'm Mazhar Mohamed!👋
             <div id="maz" data-aos="fade-up" data-aos-duration="2000">
               <img src="./20220913142257_IMG_9687__1_-removebg-preview.png" />
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="icons" data-aos="fade-down">
           <a href="https://www.linkedin.com/in/mazhar-mohamed-568938244/">

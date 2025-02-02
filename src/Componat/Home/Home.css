@@ -150,7 +150,7 @@ position: relative;
   font-size: 35px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  color: #00BCD4;
+  color: #03dac6;
 }
 #header span {
   font-size: 25px;
@@ -181,15 +181,15 @@ position: relative;
   font-weight: 600;
   font-size: 24px;
   font-family: "Dancing Script", cursive;
-  color: #FF6F61 !important;
+  color: #bb86fc !important;
 }
 #udacity {
   font-weight: 600;
-  color: #00BCD4 !important;
+  color: #bb86fc !important;
   font-family: "Dancing Script", cursive;
 }
 .hvr-bounce-to-left:before {
-  background-color: #00BCD4 !important;
+  background-color: #03dac6 !important;
 }
 #butt {
   width: 150px;
@@ -462,14 +462,14 @@ position: relative;
   margin-top: 10px !important;
   margin-right: 10px !important;
   font-size: 25px;
-  color: #00BCD4;
-  border: 2px solid #00BCD4;
+  color: #03dac6;
+  border: 2px solid #03dac6;
   border-radius: 50%;
   padding: 5px;
   transition: 0.5s;
 }
 .icons i:hover {
-  background-color: #00BCD4;
+  background-color: #03dac6;
   color: #000;
 }
 .video {
@@ -490,7 +490,7 @@ position: relative;
 }
 @keyframes text {
   50% {
-    color: #00BCD4;
+    color: #03dac6;
     bottom: 10px;
   }
 }

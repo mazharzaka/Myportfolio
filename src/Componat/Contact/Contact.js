@@ -46,7 +46,8 @@ class Contact extends Component {
             className="d-flex justify-content-center  "
             id="rss"
             style={{ width: "100%" }}
-          >     <LazyLoad >
+          >     
+          {/* <LazyLoad >
             <div className="ava">
            
               <Canvas>
@@ -56,7 +57,7 @@ class Contact extends Component {
                 <OrbitControls />
               </Canvas>
             </div>
-            </LazyLoad>
+            </LazyLoad> */}
             <div
               className="d-flex  flex-column"
               style={{ marginLeft: "100px", marginTop: "20px" }}
