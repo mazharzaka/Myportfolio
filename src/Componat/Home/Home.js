@@ -67,7 +67,7 @@ function Home() {
             <div className="mb">
               <a
                 className="button"
-                href="./mazharCv.pdf"
+                href="/Mazhar.pdf"
                 download
                 role="button"
                 id="butt"
@@ -82,7 +82,7 @@ function Home() {
               </a>
               <a
                 className="button view"
-                href="https://drive.google.com/file/d/1NTz64MxsT0PV-o_PFHJ43gmv2ZqTUkte/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1MZ_uGPDagRaVF_pKBleoLRcGJV0YRCz-/view?usp=sharing"
                 role="button"
                 id="butt"
                 target="_blank"
@@ -118,13 +118,16 @@ function Home() {
           </div> */}
         </div>
         <div className="icons" data-aos="fade-down">
-          <a href="https://www.linkedin.com/in/mazhar-mohamed-568938244/">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/mazhar-mohamed-568938244/"
+          >
             <i class="fa-brands fa-linkedin-in "></i>
           </a>
-          <a href="https://github.com/mazharzaka">
+          <a target="_blank" href="https://github.com/mazharzaka">
             <i class="fa-brands fa-github "></i>
           </a>
-          <a href="#">
+          <a href="mailto:mazharmohamed566@gmail.com" target="_blank">
             <i class="fa-regular fa-envelope "></i>
           </a>
         </div>
