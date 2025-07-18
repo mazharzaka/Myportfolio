@@ -18,6 +18,9 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import native from "./tech/native.png";
+import ang from "./tech/ang.png";
+
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
@@ -54,6 +57,8 @@ export {
   close,
   css,
   docker,
+  native,
+  ang,
   figma,
   git,
   Html,

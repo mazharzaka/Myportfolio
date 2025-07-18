@@ -7,10 +7,13 @@ import {
   tailwind,
   git,
   threejs,
-  bootstarp,
+  native,
+  ang,
   fire,
+  mongodb,
   mui,
   npm,
+  nodejs,
   github,
   ts,
   next,
@@ -18,17 +21,21 @@ import {
 } from "../assets";
 
 const technologies = [
-
   {
     name: "CSS 3",
     icon: css,
-  },  {
+  },
+  {
     name: "HTML 5",
     icon: Html,
   },
   {
     name: "JavaScript",
     icon: javascript,
+  },
+  {
+    name: "next",
+    icon: next,
   },
   // {
   //   name: "github",
@@ -43,12 +50,12 @@ const technologies = [
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "mongodb",
+    icon: mongodb,
   },
   {
-    name: "bootstarp",
-    icon: bootstarp,
+    name: "nodejs",
+    icon: nodejs,
   },
   {
     name: "sass",
@@ -67,20 +74,16 @@ const technologies = [
     icon: git,
   },
   {
-    name: "mui",
-    icon: mui,
+    name: "native",
+    icon: native,
   },
   {
-    name: "fire",
-    icon: fire,
+    name: "ang",
+    icon: ang,
   },
   {
     name: "ts",
     icon: ts,
-  },
-  {
-    name: "next",
-    icon: next,
   },
 ];
 
