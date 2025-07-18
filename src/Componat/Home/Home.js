@@ -5,13 +5,15 @@ import Typed from "typed.js";
 function Home() {
   const el = React.useRef(null);
 
-
   React.useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-        "I am a  <span id=name >21</span>-year-old.",
-        "I am very passionate about programming..",
-        " I am front-end developer",
+        'I am <span id="name">22</span> years old.',
+        "I am passionate about front-end development.",
+        "I build modern web apps using React and Next.js.",
+        "I use TypeScript, Firebase, and multilingual support (i18n).",
+        "I also work with Angular and full-stack projects using MERN & MEAN.",
+        "I care about clean UI, great UX, and real-world problem solving.",
       ],
       typeSpeed: 50,
       backSpeed: 20,
@@ -33,25 +35,31 @@ function Home() {
 
   return (
     <div id="color">
-
       <div id="sec" className='"d-flex flex-row p-5 mt-5   container'>
         <div id="res" class="d-flex mt-5 flex-row  ">
           <div className="text">
-
             <p id="par" data-aos="fade-up">
-              <p className="namw">
-                {" "}
-Hi, I'm Mazhar Mohamed!👋 
-              </p>
+              <p className="namw"> Hi, I'm Mazhar Mohamed!👋</p>
               <span ref={el} />
               <p className="tex">
-
-                A passionate front-end developer with expertise in HTML, CSS, JavaScript, React.js, and Next.js, along with TypeScript, Tailwind CSS, Firebase, and more. 
-
-                Certified by <span id="udacity">Udacity</span> , with hands-on experience in building interactive web applications, optimizing performance, and supporting multilingual features. I am driven by innovation and always eager to create seamless user experiences. Looking for opportunities to contribute to impactful projects and grow within a dynamic team.
-
-
+                A dedicated Front-End Developer with hands-on experience in
+                building modern, scalable web applications using React.js,
+                Next.js, TypeScript, Tailwind CSS, and Firebase.
+                <br />
+                Certified by <span id="udacity">Udacity</span> and trained
+                through the National Telecommunication Institute (
+                <span id="udacity">NTI</span>), I’ve worked on full-stack
+                projects using both the <span id="udacity">MERN</span> and{" "}
+                <span id="udacity">MEAN</span> stacks, with a strong focus on
+                clean UI/UX, accessibility, multilingual support, and
+                performance optimization.
+                <br />
+                I’m passionate about turning ideas into responsive and
+                user-friendly interfaces, and always eager to collaborate with
+                dynamic teams to build impactful solutions and continuously grow
+                as a developer.
               </p>
+
               {/* I am a  <span id='name'>20</span>-year-old student at the Faculty of Commerce, 
                 Cairo University. I am very passionate about programming, and I obtained a certificate from the Egyptian Ministry of Communications in
              partnership with the global platform <span id='udacity'>Udacity</span>  in the field of front-web-devolpment. Then I decided to learn react. This will be the first pilot project for me. */}
@@ -79,7 +87,7 @@ Hi, I'm Mazhar Mohamed!👋
                 id="butt"
                 target="_blank"
                 data-aos="fade-left"
-                style={{ "--color": "#03dac6", "marginLeft": "60px" }}
+                style={{ "--color": "#03dac6", marginLeft: "60px" }}
               >
                 <span></span>
                 <span></span>
@@ -88,7 +96,6 @@ Hi, I'm Mazhar Mohamed!👋
                 View
               </a>
             </div>
-
           </div>
           {/* <div className="d-flex align-items-start" id="img">
             <svg
@@ -133,7 +140,6 @@ Hi, I'm Mazhar Mohamed!👋
           </video>
         </div>
         {/* <span id="text-av">CLICK ME</span> */}
-
       </div>
     </div>
   );
